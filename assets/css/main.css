@@ -39,6 +39,8 @@ font-family: 'Roboto', sans-serif;
 	}
 
 		#header h1 {
+			color: white;
+			text-decoration: none;
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -64,7 +66,8 @@ font-family: 'Roboto', sans-serif;
 
 					#header nav ul li a, #header nav ul li span {
 						border: 0;
-						color: inherit;
+						color: white;
+						text-decoration: none;
 						display: inline-block;
 						height: inherit;
 						line-height: inherit;
