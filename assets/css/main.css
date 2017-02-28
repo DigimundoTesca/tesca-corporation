@@ -21,6 +21,10 @@ a:hover {
   text-align: center;
 }
 
+.main-wrapper section {
+  display: block;
+}
+
 
 
 /* Header */
