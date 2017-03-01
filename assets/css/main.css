@@ -2970,6 +2970,10 @@
 			position: absolute;
 		}
 
+		.spotlight .content span {
+			font-weight: bold;
+		}
+
 		.spotlight .goto-next {
 			-moz-transform: translate(0,0);
 			-webkit-transform: translate(0,0);
