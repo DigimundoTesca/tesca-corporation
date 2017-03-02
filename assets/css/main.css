@@ -3031,6 +3031,10 @@
 			border-color: #5480f1;
 		}
 
+		.style2 h3 {
+			margin-bottom: 0;
+		}
+
 		.spotlight.style3 .content {
 			border-color: #39c088;
 		}
