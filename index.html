@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.3.8/sweetalert2.min.css"/>
   </head>
   <body class="landing">
     <div id="page-wrapper">
@@ -242,11 +243,20 @@
       <script src="assets/js/jquery.scrollex.min.js"></script>
       <script src="assets/js/skel.min.js"></script>
       <script src="assets/js/util.js"></script>
+      <script src="https://cdn.jsdelivr.net/sweetalert2/6.4.2/sweetalert2.min.js" type="text/javascript" charset="utf-8">
+        
+      </script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
       <script>
         function phone(){
-          alert("Nuestros telefonos\n 53985410\n53985480\n11063976\nextensión 114");
+          swal({
+          title: 'Nuestros telefonos.',
+          text: '53985410 53985480 11063976',
+          width: 600,
+          padding: 100
+          })
+          // alert("Nuestros telefonos\n 53985410\n53985480\n11063976\nextensión 114");
         }
       </script>
   </body>
