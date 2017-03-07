@@ -4013,6 +4013,15 @@
 		font-size: 0.8em;
 	}
 
+
+	#five .container h3{
+		font-size: 3em;
+	}
+
+	#six {
+		padding: 1.2em;
+	}
+
 /*Hover Image*/
 
 	.hovereffect {
