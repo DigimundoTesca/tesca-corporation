@@ -224,7 +224,7 @@
         <!-- Footer -->
         <footer id="footer">
           <ul class="icons">
-            <li><a class="icon alt fa-home" onclick="address()"><span class="label">Tesca</span></a></li>
+            <li><a class="icon alt fa-map" onclick="address()"><span class="label">Tesca</span></a></li>
             <li><a class="icon alt fa-phone" onclick="phone()"><span class="label">Phone</span></a></li>
             <li><a target="_blank" href="https://www.facebook.com/Tesca-Corporation-775960162566584/?fref=ts" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
             <li><a class="icon alt fa-envelope btn" data-clipboard-target="customerservice@tescacorporation.com" href="mailto:customerservice@tescacorporation.com"><span class="label">Email</span></a></li>
@@ -250,8 +250,8 @@
         function phone(){
           swal({
               title: '<u>Nuestros Teléfonos</u>',
-              type: 'success',
               html: '53985410<br>53985480<br>11063976<br><br>extensión: 114',
+              showConfirmButton: false,
               showCloseButton: true,
             })
         }

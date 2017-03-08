@@ -1607,7 +1607,7 @@
 		background: #CC0025;
 	}
 	.fire img {
-		opacity: 0.5;
+		opacity: 0.65;
 		filter: alpha(opacity=40);
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
@@ -1624,7 +1624,7 @@
 		background: #007F17;
 	}
 	.earth img {
-		opacity: 0.45;
+		opacity: 0.65;
 		filter: alpha(opacity=40);
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
@@ -1641,7 +1641,7 @@
 		background: #006DCC;
 	}
 	.water img {
-		opacity: 0.4;
+		opacity: 0.55;
 		filter: alpha(opacity=40);
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
@@ -1658,7 +1658,7 @@
 		background: #CC7D00;
 	}
 	.air img {
-		opacity: 0.6;
+		opacity: 0.65;
 		filter: alpha(opacity=40);
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
