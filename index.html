@@ -9,7 +9,6 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.4.3/sweetalert2.min.css"/>
-    <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
   </head>
   <body class="landing">
     <div id="page-wrapper">
@@ -228,7 +227,7 @@
             <li><a href="index.html" class="icon alt fa-home"><span class="label">Tesca</span></a></li>
             <li><a class="icon alt fa-phone" onclick="phone()"><span class="label">Phone</span></a></li>
             <li><a target="_blank" href="https://www.facebook.com/Tesca-Corporation-775960162566584/?fref=ts" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="mailto:tescacorp@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span> tescacorp@gmail.com</a></li>
+            <li><a class="icon alt fa-envelope btn" data-clipboard-target="tescacorp@gmail.com" href="mailto:tescacorp@gmail.com"><span class="label">Email</span></a></li>
           </ul>
           <ul class="copyright">
             <li>All rights reserved.</li><li><a href="index.html">Tesca Corporation</a></li>
@@ -254,9 +253,24 @@
               type: 'success',
               html: '53985410<br>53985480<br>11063976<br><br>extensión: 114',
               showCloseButton: true,
-              confirmButtonText:'<i class="fa fa-thumbs-up"></i> Great!',
             })
         }
       </script>
+<!--       <script>
+          var clipboard = new Clipboard('.btn');
+
+          clipboard.on('success', function(e) {
+              console.info('Accion:', e.action);
+              console.info('Texto:', e.text);
+              console.info('Trigger:', e.trigger);
+
+              e.clearSelection();
+          });
+
+          clipboard.on('error', function(e) {
+              console.error('Accion:', e.action);
+              console.error('Trigger:', e.trigger);
+          });
+      </script> -->
   </body>
 </html>
