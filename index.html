@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.3.8/sweetalert2.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.4.3/sweetalert2.min.css"/>
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" /> -->
   </head>
   <body class="landing">
     <div id="page-wrapper">
@@ -243,26 +244,18 @@
       <script src="assets/js/jquery.scrollex.min.js"></script>
       <script src="assets/js/skel.min.js"></script>
       <script src="assets/js/util.js"></script>
-      <script src="https://cdn.jsdelivr.net/sweetalert2/6.4.2/sweetalert2.min.js" type="text/javascript" charset="utf-8">
-      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.4.3/sweetalert2.min.js"></script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
       <script script type="text/javascript" charset="utf-8">
         function phone(){
-          // swal({
-          //       title: 'Error!',
-          //       text: 'Do you want to continue',
-          //       type: 'success',
-          //       confirmButtonText: 'Cool'
-          //     })
           swal({
-          title: 'Nuestros telefonos.',
-          text: '53985410'+' 53985480'+' 11063976',
-          type: 'warning',
-          // width: 600,
-          // padding: 100
-          })
-          // alert("Nuestros telefonos\n 53985410\n53985480\n11063976\nextensión 114");
+              title: '<u>Nuestros Teléfonos</u>',
+              type: 'success',
+              html: '53985410<br>53985480<br>11063976<br><br>extensión: 114',
+              showCloseButton: true,
+              confirmButtonText:'<i class="fa fa-thumbs-up"></i> Great!',
+            })
         }
       </script>
   </body>
