@@ -224,7 +224,7 @@
         <!-- Footer -->
         <footer id="footer">
           <ul class="icons">
-            <li><a href="index.html" class="icon alt fa-home"><span class="label">Tesca</span></a></li>
+            <li><a class="icon alt fa-home" onclick="address()"><span class="label">Tesca</span></a></li>
             <li><a class="icon alt fa-phone" onclick="phone()"><span class="label">Phone</span></a></li>
             <li><a target="_blank" href="https://www.facebook.com/Tesca-Corporation-775960162566584/?fref=ts" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
             <li><a class="icon alt fa-envelope btn" data-clipboard-target="customerservice@tescacorporation.com" href="mailto:customerservice@tescacorporation.com"><span class="label">Email</span></a></li>
@@ -252,6 +252,16 @@
               title: '<u>Nuestros Teléfonos</u>',
               type: 'success',
               html: '53985410<br>53985480<br>11063976<br><br>extensión: 114',
+              showCloseButton: true,
+            })
+        }
+      </script>
+      <script script type="text/javascript" charset="utf-8">
+        function address(){
+          swal({
+              title: '<u>Nuestros Ubicación</u>',
+              html: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7520.6894417753765!2d-99.23530449999997!3d19.526808499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1488999867316" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> <br><br>Dirección: Circuito Musesos#29<br>Ciudad Satélite, Talnepantla<br>Estado de México<br>C.P.54054',
+              showConfirmButton: false,
               showCloseButton: true,
             })
         }
