@@ -224,8 +224,8 @@
         <!-- Footer -->
         <footer id="footer">
           <ul class="icons">
-          <li><a href="index.html" class="icon alt fa-home"><span class="label">Tesca</span></a></li>
-          <li><a class="icon alt fa-phone" onclick="phone()"><span class="label">Phone</span></a></li>
+            <li><a href="index.html" class="icon alt fa-home"><span class="label">Tesca</span></a></li>
+            <li><a class="icon alt fa-phone" onclick="phone()"><span class="label">Phone</span></a></li>
             <li><a target="_blank" href="https://www.facebook.com/Tesca-Corporation-775960162566584/?fref=ts" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
             <li><a href="mailto:tescacorp@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span> tescacorp@gmail.com</a></li>
           </ul>
@@ -244,17 +244,23 @@
       <script src="assets/js/skel.min.js"></script>
       <script src="assets/js/util.js"></script>
       <script src="https://cdn.jsdelivr.net/sweetalert2/6.4.2/sweetalert2.min.js" type="text/javascript" charset="utf-8">
-        
       </script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
-      <script>
+      <script script type="text/javascript" charset="utf-8">
         function phone(){
+          // swal({
+          //       title: 'Error!',
+          //       text: 'Do you want to continue',
+          //       type: 'success',
+          //       confirmButtonText: 'Cool'
+          //     })
           swal({
           title: 'Nuestros telefonos.',
-          text: '53985410 53985480 11063976',
-          width: 600,
-          padding: 100
+          text: '53985410'+' 53985480'+' 11063976',
+          type: 'warning',
+          // width: 600,
+          // padding: 100
           })
           // alert("Nuestros telefonos\n 53985410\n53985480\n11063976\nextensión 114");
         }
