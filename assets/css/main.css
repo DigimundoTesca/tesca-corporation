@@ -3024,7 +3024,7 @@
 		}
 
 		.spotlight.style1 .content {
-			border-color: #6772E0;
+			border-color: #B59C41;
 		}
 
 		.spotlight.style2 .content {
@@ -4014,12 +4014,22 @@
 	}
 
 
+
 	#five .container h3{
-		font-size: 3em;
+	font-size: 2.5em;
 	}
 
+
+	#five {
+	 	background-color: #283593;
+	 	/*background-image: url(../../images/TESCA.png);
+	 	background-position: center center;
+		background-repeat: no-repeat;
+		background-size: contain;*/
+	 }
+
 	#six {
-		padding: 1.2em;
+		padding: 0.5em;
 	}
 
 /*Hover Image*/
