@@ -1466,6 +1466,14 @@
 		z-index: 3;
 	}
 
+	#main article h3 {
+		text-align: center;
+	}
+
+	#main article p {
+		text-align: justify;
+	}
+
 		#main article {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
