@@ -25,7 +25,7 @@
 	body {
 		line-height: 1;
 	}
-
+ 
 	ol, ul {
 		list-style: none;
 	}
@@ -2142,7 +2142,7 @@
 		}
 
 	footer.major {
-		margin: 4em 0 0 0;
+		margin: 25px 0 0 0;
 	}
 
 /* Form */
@@ -4022,10 +4022,8 @@
 
 	#five {
 	 	background-color: #283593;
-	 	/*background-image: url(../../images/TESCA.png);
-	 	background-position: center center;
-		background-repeat: no-repeat;
-		background-size: contain;*/
+	 	padding-top: 50px;
+    	padding-bottom: 10px;
 	 }
 
 	#six {
@@ -4125,4 +4123,8 @@
 
 #one p, #two p, #three p {
 	text-align: justify;
+}
+
+#one figure {
+	text-align: center;
 }

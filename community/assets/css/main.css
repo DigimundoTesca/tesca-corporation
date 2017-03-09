@@ -1,7 +1,6 @@
-
 @import url(font-awesome.min.css); 
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
-
+ 
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -3523,3 +3522,7 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+#wrapper p {
+	text-align: justify;
+}
