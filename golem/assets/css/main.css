@@ -961,7 +961,7 @@
 		width: 150px;
 		border-radius: 6px;
 		border: 0;
-		color: #ffffff !important;
+		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 15px;
@@ -1198,8 +1198,13 @@ footer .foot {
 		}
 
 /* Shutter In Vertical */
+.special a {
+	color: #2098D1;
+}
+
 .hvr-shutter-in-vertical {
   display: inline-block;
+  text: none;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
