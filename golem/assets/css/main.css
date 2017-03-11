@@ -944,75 +944,69 @@
 	}
 
 /* Button */
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-	button,
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #6BB9FA;
-		width: 150px;
-		border-radius: 6px;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		background-color: transparent;
+		border-radius: 4px;
 		border: 0;
-		color: #ffffff;
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 15px;
-		height: 2.75em;
-		line-height: 2.75em;
-		padding: 0 1.125em;
+		font-weight: 300;
+		height: 1.7em;
+		line-height: 1.7em;
+		padding: 0 1.3em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
 	}
 
-		input[type="submit"]:hover,
+		input[type="submit"]:hover, input[type="submit"]:active,
 		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: #4A80AD;
-		}
-
-		input[type="submit"]:active,
 		input[type="reset"]:active,
+		input[type="button"]:hover,
 		input[type="button"]:active,
-		button:active,
+		.button:hover,
 		.button:active {
-			background-color: #4A80AD;
+			background-color: white;
+			box-shadow: inset 0 0 0 1px #414CB5;
+			color: #414CB5 !important;
 		}
 
-		input[type="submit"].disabled, input[type="submit"]:disabled,
-		input[type="reset"].disabled,
-		input[type="reset"]:disabled,
-		input[type="button"].disabled,
-		input[type="button"]:disabled,
-		button.disabled,
-		button:disabled,
-		.button.disabled,
-		.button:disabled {
-			opacity: 0.5;
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		.button.special {
+			background-color: #414CB5;
+			box-shadow: none;
+			color: #ffffff !important;
 		}
 
-		@media screen and (max-width: 480px) {
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				padding: 0;
+			input[type="submit"].special:hover,
+			input[type="reset"].special:hover,
+			input[type="button"].special:hover,
+			.button.special:hover {
+				background-color: #6772E0;
 			}
 
-		}
-
+			input[type="submit"].special:active,
+			input[type="reset"].special:active,
+			input[type="button"].special:active,
+			.button.special:active {
+				background-color: #414CB5;
+			}
 /* Header */
 
 	#header h1 {
