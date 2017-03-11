@@ -980,9 +980,14 @@
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			background-color: white;
+			background: red; /* For browsers that do not support gradients */
+		    background: -webkit-linear-gradient(left,rgba(113,114,224,0),rgba(113,114,224,1)); /*Safari 5.1-6*/
+		    background: -o-linear-gradient(right,rgba(113,114,224,0),rgba(113,114,224,1)); /*Opera 11.1-12*/
+		    background: -moz-linear-gradient(right,rgba(113,114,224,0),rgba(113,114,224,1)); /*Fx 3.6-15*/
+		    background: linear-gradient(to right, rgba(113,114,224,0),rgba(113,114,224,1)); /*Standard*/
+			background-color: #6772E0;
 			box-shadow: inset 0 0 0 1px #414CB5;
-			color: #414CB5 !important;
+			color: white !important;
 		}
 
 		input[type="submit"].special,
