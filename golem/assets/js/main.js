@@ -40,7 +40,7 @@
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'images/golem.jpg': 'center',
-							'images/golem.jpg': 'center',
+							'images/golem1.jpg': 'center',
 							'images/golem.jpg': 'center'
 						},
 
