@@ -4022,8 +4022,8 @@
 
 	#five {
 		background-image: url('../../images/bckgnd/Nodos_Tesca.png');
-	 	background-color: rgba(250,235,200,0.4);
-		background-size: contain;
+	 	background-color: rgba(65,76,181,0.3);
+		/*background-size: contain;*/
 	 	padding-top: 50px;
     	padding-bottom: 10px;
 	 }
