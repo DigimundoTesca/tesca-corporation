@@ -3290,7 +3290,7 @@
 			top: 0;
 		}
 
-			#header nav ul {
+			#header nav ul { 
 				margin: 0;
 			}
 
@@ -3341,7 +3341,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/TESCAflor.png");
+		background-image: url("../../images/logos/TESCAflor.png");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -4021,7 +4021,9 @@
 
 
 	#five {
-	 	background-color: #283593;
+		background-image: url('../../images/bckgnd/Nodos_Tesca.png');
+	 	background-color: rgba(65,76,181,0.3);
+		/*background-size: contain;*/
 	 	padding-top: 50px;
     	padding-bottom: 10px;
 	 }
