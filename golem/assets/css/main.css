@@ -473,6 +473,7 @@
 
 	#header p {
 		text-align: justify;
+		background-color: rgba(215, 223, 237, 0.05);
 	}
 	header h3 {
 		text-align: center;
