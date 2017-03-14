@@ -1,6 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 /* Reset */
 
@@ -292,9 +291,9 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
+		font-family: 'Quicksand', sans-serif;
+		font-size: 18px !important;
+		/*font-weight: 400;*/
 		letter-spacing: -0.01em;
 		line-height: 1.65em;
 	}
@@ -433,7 +432,7 @@
 		background: rgba(255, 255, 255, 0.125);
 		border-radius: 6px;
 		border: solid 2px rgba(255, 255, 255, 0.35);
-		font-family: "Courier New", monospace;
+		font-family: 'Quicksand', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -441,7 +440,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'Quicksand', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -474,6 +473,9 @@
 
 	#header p {
 		text-align: justify;
+	}
+	header h3 {
+		text-align: center;
 	}
 
 	header p {
@@ -958,7 +960,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Quicksand', sans-serif;
 		font-size: 0.7em;
 		background-color: transparent;
 		border-radius: 4px;
