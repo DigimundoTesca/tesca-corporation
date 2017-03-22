@@ -3427,6 +3427,7 @@
 	}
 
 		#footer .icons .icon.alt {
+			cursor: pointer;
 			text-decoration: none;
 		}
 
