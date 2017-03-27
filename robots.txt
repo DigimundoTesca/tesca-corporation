@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images/
+Allow: /*.js$
+Allow: /*.css$
+Sitemap: https://www.tescacorporation.com/sitemap.xml
