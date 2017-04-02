@@ -4059,21 +4059,23 @@
 }
 
 .hovereffect img {
+	border-radius: 1em;
   display: block;
   position: relative;
   max-width: none;
-  width: calc(100% + 20px);
+  width: 100%;
+  /*width: calc(100% + 20px); */  /*Rellena con la imagen*/
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-10px,0,0);
-  transform: translate3d(-10px,0,0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-transform: translate3d(-1px,0,0);
+  transform: translate3d(-1px,0,0);
 }
 
 .hovereffect:hover img {
-  opacity: 0.3;
   filter: alpha(opacity=40);
+  opacity: 0.3;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
